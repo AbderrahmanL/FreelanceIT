@@ -1,0 +1,108 @@
+
+@media screen and (min-width:768px),
+screen and (max-width:767px) and (min-width:381px ),
+screen and  (max-width:380px ){
+	section {
+		word-wrap: break-word;
+	}
+	header div.col-sm-4.text-right{
+		display: none;
+	}								
+	.disp{
+		display:inline-block;
+		color: #3498db;
+	}
+	#conec{
+		font-size: 16px;
+		padding:10px;
+	}
+	#compte{
+		padding:10px;
+		font-size: 14px;
+
+	}
+	#oubli{
+		padding:10px 10px 10px 30px;
+		font-size: 12px;
+	}
+	#conection{
+		font-size: 16px;
+		padding:10px;
+	}
+	#compt{
+		padding:10px;
+		font-size: 14px;
+
+	}
+	#oubl{
+		padding:10px 10px 10px 30px;
+		font-size: 12px;
+	}
+	#form{
+		padding:15px;
+	}
+	input{
+		border:1px solid #BDBDBD;
+		color:#0f0f0f;
+		margin-bottom: 10px;
+		background-color: #FFF;
+	}
+	.btns{
+		border:none;
+		padding:10px;
+	}
+	#btn{
+		border-radius:3px;
+		background-color: #328CC1;
+		color: white;
+		padding:5px;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (min-width:768px){ 
+	section .col-sm-7 ,section .col-sm-5{
+		min-height: 375px;
+		padding: 10px;
+	}
+	section .col-sm-5 {
+		background-color: rgba(29, 39, 49, 0.2);
+	}
+	section .col-sm-7 {
+		background-color: rgba(11, 60, 93, 0.2);
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (max-width:767px) and (min-width:381px ){ 
+	section {
+		padding: 0;
+	}
+	section .col-sm-7 ,section .col-sm-5{
+		min-height: 375px;
+		padding: 10px;
+	}
+	section .col-sm-5 {
+		background-color: rgba(29, 39, 49, 0.2);
+	}
+	section .col-sm-7 {
+		background-color: rgba(11, 60, 93, 0.2);
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and  (max-width:380px ){ 
+	body {
+		min-width: 320px;
+	}
+	section {
+		padding: 0;
+	}
+	section .col-sm-7 ,section .col-sm-5{
+		min-height: 375px;
+		padding: 10px;
+	}
+	section .col-sm-5 {
+		background-color: rgba(29, 39, 49, 0.2);
+	}
+	section .col-sm-7 {
+		background-color: rgba(11, 60, 93, 0.2);
+	}
+}

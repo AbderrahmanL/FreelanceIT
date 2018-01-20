@@ -1,0 +1,65 @@
+@media screen and (min-width:768px),
+screen and (max-width:767px) and (min-width:381px ),
+screen and  (max-width:380px ){
+	.mission {
+		border-bottom: 1px solid #BDC7D1 ;
+		padding: 0;
+		margin: 0px 4px;
+	}
+	.missionTitle {
+		margin: 0;
+		padding: 8px 6px;
+		border-radius: 4px 4px 0 0;
+		font-weight: bold;
+		color: /*#328CC1*/ #0B3C5D; 
+	}
+	.missionDesc {
+		margin: 0;
+		padding: 10px;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (min-width:768px){ 
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 375px;
+		padding: 10px 50px;
+	}
+	section .col-sm-4 {
+		background-color: rgba(29, 39, 49, 0.2);
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (max-width:767px) and (min-width:381px ){ 
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 375px;
+		padding: 10px
+	}
+	section .col-sm-4{
+		display: none;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and  (max-width:380px ){ 
+	body {
+		min-width: 320px;
+	}
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 240px;
+		padding: 10px
+	}
+	section .col-sm-4{
+		display: none;
+	}
+	.missionpic {
+		display: none;
+	}
+}

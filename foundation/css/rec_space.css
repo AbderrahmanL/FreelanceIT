@@ -1,0 +1,105 @@
+@media screen and (min-width:768px),
+screen and (max-width:767px) and (min-width:381px ),
+screen and  (max-width:380px ){
+	fieldset {
+		margin: 20px;
+		border: 1px solid black;
+		border-radius: 5px;
+		padding:20px;
+	}
+	.fieldset p {
+		background-color: #f2dede;
+		color: red;
+	}
+	.mission {
+		border-bottom: 1px solid #BDC7D1 ;
+		padding: 0;
+		margin: 0px 4px;
+	}
+	.mission:hover {
+		background-color: #DDEEFF;
+	}
+	.missionTitle {
+		margin: 0;
+		padding: 8px 6px;
+		border-radius: 4px 4px 0 0;
+		font-weight: bold;
+		color: /*#328CC1*/ #0B3C5D; 
+	}
+	.missionDesc {
+		margin: 0;
+		padding: 10px;
+	}
+	#sidebar {
+		padding-top: 30px;
+		padding-left:  10px;
+		padding-right: 20px;
+	}
+	#info {
+		background-color: #0B3C5D;
+		border: 1px solid black;
+		width: 100%;
+		border-radius: 5px;
+		padding: 10px;
+		padding-bottom: 20px;
+		margin: 5px;
+	}
+	#info2 {
+		background-color: #328CC1;
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 10px;
+		padding-bottom: 20px;
+		margin: 5px;
+		width: 100%;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (min-width:768px){ 
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 375px;
+		padding: 10px 50px;
+	}
+	section .col-sm-4 {
+		background-color: rgba(29, 39, 49, 0.2);
+	}
+	.is-table-row {
+		overflow: hidden;
+	}
+	.is-table-row [class*="col-"] {
+		margin-bottom: -99999px;
+		padding-bottom: 99999px;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (max-width:767px) and (min-width:381px ){ 
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 375px;
+		padding: 10px
+	}
+	section .col-sm-4{
+		display: none;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and  (max-width:380px ){ 
+	body {
+		min-width: 320px;
+	}
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 240px;
+		padding: 10px
+	}
+	section .col-sm-4{
+		display: none;
+	}
+}

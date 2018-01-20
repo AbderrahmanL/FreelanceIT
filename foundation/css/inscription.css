@@ -1,0 +1,45 @@
+@media screen and (min-width:768px),
+screen and (max-width:767px) and (min-width:381px ),
+screen and  (max-width:380px ){
+	fieldset {
+		margin: 20px;
+		border: 1px solid black;
+		border-radius: 5px;
+		padding:0px 20px 20px 20px;
+	}
+	.fieldset p {
+		background-color: #f2dede;
+		color: red;
+	}
+	input {
+		float: right;
+	}
+	#btn{
+		border-radius:7px;
+		background-color: #328CC1;
+		color: white;
+		font-weight: bold;
+		padding:10px 20px;
+		float: left;
+		width: 90px;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (min-width:768px){
+	
+}
+/*****************************************************************************************************************************************/
+@media screen and (max-width:767px) and (min-width:381px ){
+	input {
+		width: 210px;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and  (max-width:380px ){
+	body {
+		min-width: 320px;
+	}
+	input {
+		width: 210px;
+	}
+}

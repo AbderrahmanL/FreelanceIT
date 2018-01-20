@@ -1,0 +1,99 @@
+@media screen and (min-width:768px),
+screen and (max-width:767px) and (min-width:381px ),
+screen and  (max-width:380px ){
+	#info {
+		background-color: #0B3C5D;
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 10px;
+		padding-bottom: 20px;
+		margin: 5px;
+		width: 100%;
+	}
+	#info2 {
+		background-color: #328CC1;
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 10px;
+		padding-bottom: 20px;
+		margin: 5px;
+		width: 100%;
+	}
+	#sidebar {
+		padding-top: 35px;
+		padding-left:  10px;
+		padding-right: 20px;
+	}
+	.btn {
+		color: #1D2731;
+	}
+	body #mission {
+		padding-bottom: 10px
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (min-width:768px){ 
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 375px;
+		padding: 10px
+	}
+	section .col-sm-4 {
+		background-color: rgba(29, 39, 49, 0.2);
+	}
+	#mission {
+		margin: 5% 12%; 
+		padding: 0 30px; 
+		border: solid 1px #328CC1 ; 
+		border-radius: 5px;
+	}
+	.is-table-row {
+		overflow: hidden;
+	}
+	.is-table-row [class*="col-"] {
+		margin-bottom: -99999px;
+		padding-bottom: 99999px;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and (max-width:767px) and (min-width:381px ){ 
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 375px;
+		padding: 10px
+	}
+	section .col-sm-4{
+		display: none;
+	}
+	#mission {
+		margin: 20px 20px; 
+		padding: 0 30px; 
+		border: solid 1px #328CC1 ; 
+		border-radius: 5px;
+	}
+}
+/*****************************************************************************************************************************************/
+@media screen and  (max-width:380px ){ 
+	body {
+		min-width: 320px;
+	}
+	section {
+		padding: 0;
+	}
+	section .col-sm-8 ,section .col-sm-4{
+		min-height: 240px;
+		padding: 10px
+	}
+	section .col-sm-4{
+		display: none;
+	}
+	#mission {
+		padding: 0 30px; 
+		border: solid 1px #328CC1 ; 
+		border-radius: 5px;
+	}
+}
